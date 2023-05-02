@@ -12,7 +12,7 @@ library(fishplot)
 #You may need to add interpolated points to end up with the desired
 #visualization. Example here was actually sampled at days 0 and 150
 timepoints=c(0, 100, 200, 210)
-value_multipy <- 35;   ### To incerese or decrease size of the graphics
+value_multipy <- 35;   ### To increase or decrease size of the graphics
 
 #provide a matrix with the fraction of each population
 #present at each timepoint
@@ -76,7 +76,7 @@ fishPlot(fish,shape="spline",
 #You may need to add interpolated points to end up with the desired
 #visualization. Example here was actually sampled at days 0 and 150
 timepoints=c(0, 100, 200, 210)
-value_multipy <- 35;   ### with 3 raise s an error
+value_multipy <- 35;
 
 #provide a matrix with the fraction of each population
 #present at each timepoint
